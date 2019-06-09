@@ -3,7 +3,7 @@ package ru.tinkoff.allure.android
 import android.content.Context
 import android.os.Build
 import android.os.Environment
-import android.support.test.InstrumentationRegistry.getInstrumentation
+import androidx.test.platform.app.InstrumentationRegistry.getInstrumentation
 import ru.tinkoff.allure.AllureLifecycle
 import ru.tinkoff.allure.io.FileSystemResultsReader
 import ru.tinkoff.allure.io.FileSystemResultsWriter
